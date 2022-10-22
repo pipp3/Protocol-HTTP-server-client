@@ -35,7 +35,7 @@ List the ready features here:
 
 
 ## Screenshots
-(./img/WhatsApp Image 2022-10-22 at 6.16.31 PM.jpeg)
+![Example screenshot](./img/WhatsApp Image 2022-10-22 at 6.16.31 PM.jpeg)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
