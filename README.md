@@ -46,13 +46,13 @@ Descargar los archivos del repositorio. Usar los siguientes comandos para instal
 Instalar pip3 para python:
 `$ python -m pip install urllib3`
 Ahora ejecutar el siguiente codigo en python para el lado del cliente:
-`>>> import urllib3
+
+` >>> import urllib3
 >>> http = urllib3.PoolManager()
 >>> resp = http.request("GET", "http://httpbin.org/robots.txt")
->>> resp.status
-200
->>> resp.data
-b"User-agent: *\nDisallow: /deny\n"`
+>>> resp.status 200
+>>> resp.datab"User-agent: *\nDisallow: /deny\n"`
+
 Para realizar una solicitud utilice request():
 
 `r = http.request('GET', 'http://httpbin.org/robots.txt')
