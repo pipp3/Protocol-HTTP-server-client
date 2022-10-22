@@ -35,7 +35,7 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/WhatsApp Image 2022-10-22 at 6.16.31 PM.jpeg)
+./img/WhatsApp Image 2022-10-22 at 6.16.31 PM.jpeg
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
@@ -47,11 +47,11 @@ Instalar pip3 para python:
 `$ python -m pip install urllib3`
 Ahora ejecutar el siguiente codigo en python para el lado del cliente:
 
-`>>> import urllib3
+>>> import urllib3
 >>> http = urllib3.PoolManager()
 >>> resp = http.request("GET", "http://httpbin.org/robots.txt")
 >>> resp.status 200
->>> resp.datab"User-agent: *\nDisallow: /deny\n" `
+>>> resp.datab"User-agent: *\nDisallow: /deny\n"
 
 Para realizar una solicitud utilice request():
 
@@ -87,5 +87,6 @@ El proyecto se encuentra en funcionamiento. Instalar y usar.
 
 ## Agradecimientos
 https://urllib3.readthedocs.io/en/stable/
+
 https://github.com/http-party/http-server
 
