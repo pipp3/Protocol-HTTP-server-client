@@ -5,7 +5,6 @@ Dupla de software cliente-servidor que envia y recibe solicitudes HTTP
 * [Informacion General](#general-information)
 * [Tecnologias Usadas](#technologies-used)
 * [Caracteristicas](#features)
-* [Screenshots](#screenshots)
 * [Configuracion](#setup)
 * [Uso](#usage)
 * [Estado del Proyecto](#project-status)
@@ -32,11 +31,6 @@ List the ready features here:
 - http-serveres un servidor HTTP estático de línea de comandos simple y sin configuración. Es lo suficientemente potente para el uso de producción, pero es lo suficientemente simple y pirateable para usarse para pruebas, desarrollo local y aprendizaje.
 - urllib3 es un cliente HTTP potente y fácil de usar para Python. Gran parte del ecosistema de Python ya usa urllib3 y tú también deberías hacerlo.
 
-
-
-## Screenshots
-![Example screenshot](./img/WhatsApp Image 2022-10-22 at 6.16.31 PM.jpeg)
-<!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Configuracion
