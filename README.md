@@ -55,18 +55,18 @@ Ahora ejecutar el siguiente codigo en python para el lado del cliente:
 b"User-agent: *\nDisallow: /deny\n"`
 Para realizar una solicitud utilice request():
 
-r = http.request('GET', 'http://httpbin.org/robots.txt')
+`r = http.request('GET', 'http://httpbin.org/robots.txt')
 r.data
-b'User-agent: *\nDisallow: /deny\n'
-request()devuelve un HTTPResponseobjeto, la sección Contenido de la respuesta explica cómo manejar varias respuestas.
+b'User-agent: *\nDisallow: /deny\n'`
+
 
 Puede usar request()para hacer solicitudes usando cualquier verbo HTTP:
 
-r = http.request(
+`r = http.request(
     'POST',
     'http://httpbin.org/post',
     fields={'hello': 'world'}
-)
+)`
 La sección Solicitar datos cubre el envío de otros tipos de datos de solicitudes, incluidos JSON, archivos y datos binarios.
 
 
