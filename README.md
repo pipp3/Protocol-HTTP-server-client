@@ -70,13 +70,13 @@ Descargar y descomprimir zip.
 
 Usar comando 
 
-`docker build -t tarea2 [PATH]'
+`docker build -t tarea2 [PATH]`
 
 [path] el valor predeterminado es ./public si la carpeta existe, y de ./ lo contrario.
 
 Luego usar el comando 
 
-'docker run -d -p 8080:8080 tarea2'
+`docker run -d -p 8080:8080 tarea2`
 
 Finalmente utilizar el Python como cliente
 
