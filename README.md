@@ -66,13 +66,19 @@ La sección Solicitar datos cubre el envío de otros tipos de datos de solicitud
 
 ## Uso
 
-`npx http-server [path] [options]`
+Descargar y descomprimir zip.
+
+Usar comando 
+
+`docker build -t tarea2 [PATH]'
 
 [path] el valor predeterminado es ./public si la carpeta existe, y de ./ lo contrario.
 
-Ahora puede visitar http://localhost:8080 para ver su servidor
+Luego usar el comando 
 
-Ejecute la app con el codigo de python anterior para empezar a hacer REQUEST Y GET.
+'docker run -d -p 8080:8080 tarea2'
+
+Finalmente utilizar el Python como cliente
 
 
 ## Estado del Proyecto
