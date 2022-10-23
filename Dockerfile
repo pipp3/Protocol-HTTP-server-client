@@ -9,5 +9,5 @@ ADD     ./    /tarea2/
 COPY    app.py app.py
 COPY    www /www/
 EXPOSE  8080
-ENTRYPOINT [ "http-server", "--cors", "-p8080","/tarea2/www" ]
-CMD ["python3", "app.py"]
+CMD [ "http-server", "--cors", "-p8080","/tarea2/www" ]
+
