@@ -78,7 +78,7 @@ Luego usar el comando
 
 `docker run -d -p 8080:8080 tarea2`
 
-Finalmente utilizar el Python como cliente
+Finalmente abrir app.py como cliente
 
 
 ## Estado del Proyecto
